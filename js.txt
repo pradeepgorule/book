@@ -1,0 +1,59 @@
+KeyCode  :- 
+
+1]  The keyCode property returns the Unicode character code of the key that triggered the onkeypress event
+ 
+
+ The difference between the two code types:
+
+Character codes - A number which represents an ASCII character
+Key codes - A number which represents an actual key on the keyboard
+
+These types do not always mean the same thing; for example, a lower case "w" and an upper case "W" have the same keyboard code, because the key that is pressed on the keyboarThe which property returns the Unicode character code of the key that triggered the onkeypress event
+
+The difference between the two code types:
+
+Character codes - A number which represents an ASCII character
+Key codes - A number which represents an actual key on the keyboardd is the same (just "W" = the number "87"), but a different character code because the resulting character is different (either "w" or "W", which is "119" or "87") 
+
+Tip: To find out if the user is pressing a printable key (e.g. "a" or "5"), it is recommended to use this property on the onkeypress event. To find out if the user is pressing a function key (e.g. "F1", "CAPS LOCK" or "Home") use the onkeydown or onkeyup event.
+
+Note: In Firefox, the keyCode property does not work on the onkeypress event (will only return 0). For a cross-browser solution, use the which property together with keyCode, e.g:
+
+var x = event.which || event.keyCode;  // Use either which or keyCode, depending on browser support
+
+Tip: If you want to find out whether the "ALT", "CTRL", "META" or "SHIFT" key was pressed when a key event occured, use the altKey, ctrlKey, metaKey or shiftKey property.
+
+
+Which Property :- 
+
+The which property returns the Unicode character code of the key that triggered the onkeypress event
+
+The difference between the two code types:
+
+Character codes - A number which represents an ASCII character
+Key codes - A number which represents an actual key on the keyboard
+
+
+These types do not always mean the same thing; for example, a lower case "w" and an upper case "W" have the same keyboard code, because the key that is pressed on the keyboard is the same (just "W" = the number "87"), but a different character code because the resulting character is different (either "w" or "W", which is "119" or "87") 
+
+
+Unload Events:- 
+
+The onunload event occurs once a page has unloaded (or the browser window has been closed).
+
+onunload occurs when the user navigates away from the page (by clicking on a link, submitting a form, closing the browser window, etc.).
+
+Note: The onunload event is also triggered when a user reloads the page (and the onload event).
+
+
+Onload Events : -
+
+Execute a JavaScript immediately after a page has been loaded:
+
+The onload event occurs when an object has been loaded.
+
+onload is most often used within the <body> element to execute a script once a web page has completely loaded all content (including images, script files, CSS files, etc.).
+
+The onload event can be used to check the visitor's browser type and browser version, and load the proper version of the web page based on the information.
+
+The onload event can also be used to deal with cookies
