@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://mindmajix.com/reactjs-interview-questions#how-react-works -->
+<html lang="en" class=" js csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    	<title>Top 50  React JS Interview Questions - You Must Learn In 2020</title>
+    	
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    	<link rel="manifest" href="https://mindmajix.com/manifest.json">
+
+    	<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="Mindmajix">
+		<meta name="apple-mobile-web-app-title" content="Mindmajix">
+		<meta name="theme-color" content="#e94350">
+		<meta name="msapplication-navbutton-color" content="#e94350">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="msapplication-starturl" content="https://mindmajix.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png">
+		<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png">
+
+	    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+	    <meta name="description" content="Are you are Preparing for a React JS Interview? Here are the Top 50 essential React JS Interview Questions &amp;  Answers that will help to Crack the Interview in 2020. Read More!">
+	    <meta name="author" content="Mindmajix Technologies">
+	    <link rel="shortcut icon" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png">
+	    <!-- <link rel="icon" type="image/png" href="https://cdn.mindmajix.com/images/mindmajix-fav-icon.png"> -->
+	    <link rel="canonical" href="https://mindmajix.com/reactjs-interview-questions">
+	    <meta name="google-site-verification" content="BZ-x6vbnZIFORbdOm7Qc69DGYv_GdEphiPhLQ4DtQm4">
+
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Top 50  React JS Interview Questions - You Must Learn In 2020">
+		<meta property="og:description" content="Are you are Preparing for a React JS Interview? Here are the Top 50 essential React JS Interview Questions &amp;  Answers that will help to Crack the Interview in 2020. Read More!">
+		<meta property="og:url" content="https://mindmajix.com/reactjs-interview-questions">
+		<meta property="og:site_name" content="Mindmajix">
+		<meta property="article:publisher" content="https://www.facebook.com/MindMajixTechnologies/">
+		<meta property="article:section" content="ReactJS">
+		<meta property="article:published_time" content="2017-08-24">
+		<meta property="fb:app_id" content="385261848779801">
+		<meta property="og:image" content="https://cdn.mindmajix.com/blog/images/react-js-interview-questions-120919.png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="628">
+		<meta name="twitter:card" content="summary_large_image">
+	    <meta name="twitter:description" content="Are you are Preparing for a React JS Interview? Here are the Top 50 essential React JS Interview Questions &amp;  Answers that will help to Crack the Interview in 2020. Read More!">
+	    <meta name="twitter:title" content="Top 50  React JS Interview Questions - You Must Learn In 2020">
+	    <meta name="twitter:site" content="@MindMajix">
+	    <meta name="twitter:image" content="https://cdn.mindmajix.com/blog/images/react-js-interview-questions-120919.png">
+	    <meta name="twitter:creator" content="@MindMajix">
+	    
+        <!--=============== css  ===============-->
+        <link type="text/css" rel="stylesheet" href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/reset.css">
+        <link type="text/css" rel="stylesheet" href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/plugins.css">
+        <link type="text/css" rel="stylesheet" href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/style.css">
+        <link type="text/css" rel="stylesheet" href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/color.css">
+
+        <link href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/shCore.css" rel="stylesheet" type="text/css">
+        <link href="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/shThemeDefault.css" rel="stylesheet" type="text/css">
+
+
+
+        <style type="text/css">
+        	.box-widget-content .widget-posts li:first-child {
+			    padding: 0px 0px 10px;
+			    width: 100%;
+			    text-align: left;
+			    border-bottom: 1px solid #eee;
+			}
+
+			.cta_inline {
+		        display: inline-block;
+		        width: 100%;
+		        border-top: 1px solid #ddd;
+		        border-bottom: 1px solid #ddd;
+		        padding: 30px 15px;
+		        text-align: center;
+		        margin: 20px 0px;
+    			background: #fafafa;
+		    }
+
+		    .cta_inline h4{
+		        text-align: center;
+		    }
+
+		    .duration li {
+	            line-height: 28px!important
+	        }
+
+	        .duration li.active,.duration li:hover {
+	            /*border-left: #f5811d 2px solid;*/
+	            padding: 0 5px;
+	            background: #fff
+	        }
+
+	        .course_dt {
+	            margin-left: 3%;   
+	            overflow: hidden;
+	        }
+
+	        .course_dt li {
+	            line-height: 30px!important;
+	            float: left;
+	            background: #fafafa;
+	            margin: 2px 8px;
+	            padding: 0 5px;
+	            cursor: pointer
+	        }
+
+	        .listli span.glyphicon {
+	            opacity: 0;
+	            top: 1%;
+	            right: 10%;
+	            color: #f5811d;
+	            width: 1px;
+	            font-size: 16px;
+	            font-weight: normal
+	        }
+
+	        .listli.active span.glyphicon,.duration li:hover span.glyphicon {
+	            opacity: 1
+	        }
+
+	        .ui-widget-content
+	        {
+	            text-align: left;
+	        }
+
+	        #courseRightPanelNew .batchDate {
+	            background: #efefef;
+	            color: #656565;
+	            line-height: 10px;
+	            margin: 6px 0;
+	            padding: 6px 5px;
+	            text-align: center;
+	            float: left;
+	            display: inline-block;
+	            min-width: 42px
+	        }
+
+	        #courseRightPanelNew .batchDate>p {
+	            font-size: 12px;
+	            margin-bottom: 1px;
+	            color: #222;
+	            text-align: center;
+	            padding: 0 8px;
+	            font-weight: 800
+	        }
+
+	        #courseRightPanelNew .batchDate>b {
+	            color: #232323;
+	            font-size: 9px;
+	            text-transform: uppercase
+	        }
+
+	        #courseRightPanelNew .batchWeek {
+	            font-size: 11px;
+	            text-align: left;
+	            float: left;
+	            padding: 2px 5px;
+	            min-width: 84px
+	        }
+
+	        #courseRightPanelNew .check {
+	            font-size: 11px;
+	            text-align: left;
+	            vertical-align: middle;
+	            float: right;
+	            padding: 6px 10px
+	        }
+
+	        #courseRightPanelNew .btn-warning {
+	            background: #293549;
+	            border: 1px solid #293549
+	        }
+	        img
+	        {
+	        	max-width: 100% !important;
+	    		height: auto !important;
+	    		display: block;
+	    		margin: 0px auto 10px;
+	        }
+
+	        h5,h6
+	        {
+	        	font-size: 16px;
+	    		line-height: 30px;
+	        }
+
+	        iframe
+	        {
+	        	width: 100%;
+	        	height: 400px;
+	        }
+
+
+
+	        @media only screen and  (max-width: 768px) {
+	        	.course_dt li{
+	           		margin: 2px 1px;
+	           	}
+
+	           	iframe
+		        {
+		        	height: 250px;
+		        }
+	        }
+
+	        .alignleft
+	        {
+	        	float: left!important;
+    			padding-right: 15px;
+	        }
+
+	
+    @media only screen and (max-width:1000px) and (min-width:300px){
+        .navsearch
+	    {
+	    	width: 100% !important;
+	    }
+
+    }
+
+	    .navsearch
+	    {
+	    	width: 400px;
+	    	float: left;
+	    }
+
+	    .navsearch input {
+	    	height: 35px;
+		    border-radius: 2px;
+		    background: #ffffff;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color: #4a4a4a;
+		    padding: 9px 30px 9px 15px;
+		    width: 100%;
+		    border: medium none;
+		    box-shadow: none;
+		    display: inline-block;
+		    transition: all ease-out 0.1s;
+		    margin: 16px 0px;
+			float:left;
+			z-index:1;
+		}
+		.navsearch .search-submit{
+			position:absolute;
+			top:0;
+			right:0;
+			width:80px;
+			height:35px;
+			line-height:35px;
+			z-index:2;
+			color:#fff;
+			border:none;
+			cursor:pointer;
+			border-radius:0 2px 2px 0;
+		    margin: 16px 0px;
+		}
+
+ .ui-widget-content
+        {
+            text-align: left;
+        }
+    
+
+        </style>
+
+        <script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/cb=gapi.loaded_2" async=""></script><script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/cb=gapi.loaded_1" async=""></script><script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/cb=gapi(3).loaded_0" async=""></script><script async="" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/analytics.js.download"></script><script type="application/ld+json">
+	    { 
+	        "@context": "https://schema.org",
+	         "@type": "Organization",
+	         "name": "Mindmajix",
+	         "url": "https://mindmajix.com/reactjs-interview-questions",
+	         "logo": "https://cdn.mindmajix.com/asset/images/logo.png",
+	         "sameAs": [ 
+	         "https://www.facebook.com/MindMajixTechnologies",
+	         "https://www.twitter.com/mindmajix",
+	         "https://www.youtube.com/c/mindmajix",
+	         "https://www.linkedin.com/company/mindmajix/"
+	        ]
+	    }
+	    </script>
+
+	    <script type="application/ld+json"> { "@context": "http://www.schema.org", "@type": "Product", "brand": "Mindmajix", "name": "Reviews", "image": "https://cdn.mindmajix.com/blog/images/react-js-interview-questions-120919.png", "description": "Thanks for sharing the Excellent Article on Top 50 ReactJS Interview Questions ", "aggregateRating": { "@type": "aggregateRating", "ratingValue": "5.0", "reviewCount": "7728" } } 
+	    </script>
+
+	    
+
+    <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };</style><script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/embed.js.download" data-timestamp="1580645187526"></script><script async="" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/hotjar-1105249.js.download"></script><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.15d8f2a22cfa6b9f96345c682b01a08f.css"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.0d424497492a7a96477653dedbd1462f.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.a0b0b564b806112a1c4571475f829256.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"><script async="" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/modules.9ad849c74ae56ab50f63.js.download" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><style>.gc-bubbleDefault{background-color:transparent !important;text-align:left;padding:0 !important;margin:0 !important;border:0 !important;table-layout:auto !important}.gc-reset{background-color:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;text-align:left}.pls-bubbleTop{border-bottom:1px solid #ccc !important}.pls-topTail,.pls-vertShimLeft,.pls-contentLeft{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/border_3.gif) !important}.pls-topTail{background-repeat:repeat-x !important;background-position:bottom !important}.pls-vertShim{background-color:#fff !important;text-align:right}.tbl-grey .pls-vertShim{background-color:#f5f5f5 !important}.pls-vertShimLeft{background-repeat:repeat-y !important;background-position:right !important;height:4px}.pls-vertShimRight{height:4px}.pls-confirm-container .pls-vertShim{background-color:#fff3c2 !important}.pls-contentWrap{background-color:#fff !important;position:relative !important;vertical-align:top}.pls-contentLeft{background-repeat:repeat-y;background-position:right;vertical-align:top}.pls-dropRight{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png) !important;background-repeat:repeat-y !important;vertical-align:top}.pls-vert,.pls-tailleft,.pls-dropTR .pls-dropBR,.pls-dropBL,.pls-vert img{vertical-align:top}.pls-dropBottom{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropB_3.png) !important;background-repeat:repeat-x !important;width:100%;vertical-align:top}.pls-topLeft{background:inherit !important;text-align:right;vertical-align:bottom}.pls-topRight{background:inherit !important;text-align:left;vertical-align:bottom}.pls-bottomLeft{background:inherit !important;text-align:right}.pls-bottomRight{background:inherit !important;text-align:left;vertical-align:top}.pls-tailtop,.pls-tailright,.pls-tailbottom,.pls-tailleft{display:none;position:relative}.pls-tailbottom,.pls-tailtop,.pls-tailright,.pls-tailleft,.pls-dropTR,.pls-dropBR,.pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite_3.png) !important;background-repeat:no-repeat}.tbl-grey .pls-tailbottom,.tbl-grey .pls-tailtop,.tbl-grey .pls-tailright,.tbl-grey .pls-tailleft,.tbl-grey .pls-dropTR,.tbl-grey .pls-dropBR,.tbl-grey .pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite-grey.png) !important}.pls-tailbottom{background-position:-23px 0}.pls-confirm-container .pls-tailbottom{background-position:-23px -10px}.pls-tailtop{background-position:-19px -20px}.pls-tailright{background-position:0 0}.pls-tailleft{background-position:-10px 0}.pls-tailtop{vertical-align:top}.gc-bubbleDefault td{line-height:0;font-size:0}.pls-topLeft img,.pls-topRight img,.pls-tailbottom{vertical-align:bottom}.pls-bottomLeft img,.bubbleDropTR,.pls-dropBottomL img,.pls-dropBottom img,.pls-dropBottomR img,.pls-bottomLeft{vertical-align:top}.pls-dropTR{background-position:0 -22px}.pls-dropBR{background-position:0 -27px}.pls-dropBL{background-position:0 -16px}.pls-spacertop,.pls-spacerright,.pls-spacerbottom,.pls-spacerleft{position:static !important}.pls-spinner{bottom:0;position:absolute;left:0;margin:auto;right:0;top:0} </style></head>
+    <body>
+
+
+        
+        <!-- Main  -->
+        <div id="main">
+            <!-- header-->
+        	<header class="header">
+      
+    <nav id="" class="navbar navbar-inverse">
+
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="btn bg-red color-1 free-trail" data-toggle="modal" data-target="#subscribe" id="form_button" data-text="Join for a Free Demo" data-message="Message">Subscribe</a>
+          <a class="navbar-brand" href="https://mindmajix.com/">
+            <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/logo.png" alt="logo" class="img-responsive logo">
+          </a>
+        </div>
+
+        <div class="nav_search">
+            <div class="navsearch">
+                <form action="https://mindmajix.com/" id="searchform" class="fl-wrap">
+                    <input name="s" type="text" class="search ui-autocomplete-input" required="" id="search" placeholder="What do you want to Learn?" autocomplete="off">
+                    <button class="search-submit color2-bg" id="submit_btn"><i class="fal fa-search transition"></i> </button>
+                </form>
+            </div>            
+        </div>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav f-s-11">
+            <li><a href="https://mindmajix.com/all-courses">Courses</a></li>
+            <!-- <li><a href="https://mindmajix.com/corporate-training">Corporate Training</a></li> -->
+            <!-- <li><a href="https://mindmajix.com/instructor">Become an Instructor</a></li> -->
+            <li><a href="https://mindmajix.com/blog">Blog</a></li>
+            <li><a href="https://mindmajix.com/on-job-support">On Job Support</a></li>
+            <li>
+              <a class="btn bg-red color-1" data-toggle="modal" data-target="#subscribe" id="form_button" data-text="Join for a Free Demo" data-message="Message">Subscribe</a>
+            </li>
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li class="pull-xs-left"><a href="javascript:void();" class="search-menu"><span class="glyphicon glyphicon-search"></span></a></li>
+            <li class="pull-xs-left"><a data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user"></span></a></li>
+          </ul> -->
+        </div>
+      </div>
+
+    </nav>
+
+</header>            <!--  header end -->
+            <!--  wrapper  -->
+            <div id="wrapper">
+                <!-- content-->
+                <div class="content">
+                    <!--  section  -->
+                    <section class="color-bg middle-padding ">
+                        <div class="wave-bg wave-bg2"></div>
+                        <div class="container">
+
+                            <div class="flat-title-wrap">
+
+                                <div class="breadcrumbs"><a href="https://mindmajix.com/">Home</a><a href="https://mindmajix.com/react-js">ReactJS</a><span>Top 50 ReactJS Interview Questions</span></div>
+                                <h1>Top 50 ReactJS Interview Questions</h1>
+                                <br>
+                                <div><span class="listing-rating card-popup-rainingvis" data-starrating2="5.0"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> <span class="listing-rating"> (5.0) | 7728 Ratings</span></div>
+                               
+                                <br>
+                                <span class="section-separator"></span>
+                            </div>
+                        </div>
+                    </section>
+                    <!--  section  end-->
+                    
+                    <!-- section-->
+                    <section id="sec1" class="middle-padding article grey-blue-bg">
+                        <div class="container">
+                            <div class="row">
+                            	 <!--   sidebar  -->
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <!--box-widget-wrap -->  
+                                    <div class="box-widget-wrap fl-wrap fixed-bar">
+                                        <!--box-widget-item -->
+
+                                        
+                                    	                                    	<div class="box-widget-item fl-wrap affixed" id="related_articles" style="opacity: 6.7304;">
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">
+                                                    <div class="box-widget-item-header">
+                                                        <h3>Related Articles</h3>
+                                                    </div>
+                                                    <div class="widget-posts fl-wrap">
+                                                        <ul>
+                                                        												                	<li>
+                                                                	<a href="https://mindmajix.com/introduction-to-react-js" target="_blank" title="Introduction to ReactJS">Introduction to ReactJS</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/react-js-tutorial" target="_blank" title="React JS Tutorial">React JS Tutorial</a> 
+                                                            	</li>
+											                  
+											                                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    	
+                                        <div class="search-widget">
+                                            <form action="https://mindmajix.com/" class="fl-wrap box-widget-item">
+                                                <input name="s" id="se" type="text" class="search" placeholder="Search.." value="">
+                                                <button class="search-submit color2-bg" id="submit_btn"><i class="fal fa-search transition"></i> </button>
+                                            </form>
+                                        </div>
+
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">
+                                                    <div class="box-widget-item-header">
+                                                        <h3>Latest Articles</h3>
+                                                    </div>
+                                                    <div class="widget-posts fl-wrap">
+                                                        <ul>
+                                                        												                	<li>
+                                                                	<a href="https://mindmajix.com/full-stack-developer-interview-questions" target="_blank" title="Full Stack Developer Interview Questions">Full Stack Developer Interview Questions</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/kafka-tutorial" target="_blank" title="Kafka Tutorial - A Comprehensive Guide">Kafka Tutorial - A Comprehensive Guide</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/akka-tutorial" target="_blank" title="Akka Tutorial - A Complete Guide">Akka Tutorial - A Complete Guide</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/jira-vs-trello" target="_blank" title="Jira vs Trello - Comparing the Atlassian Project Management Tools">Jira vs Trello - Comparing the Atlassian Project Management Tools</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/artificial-intelligence-technologies" target="_blank" title="Top 10 Artificial Intelligence Technologies">Top 10 Artificial Intelligence Technologies</a> 
+                                                            	</li>
+											                  
+											                                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget widget-posts">
+                                                <div class="box-widget-content">
+                                                    <div class="box-widget-item-header">
+                                                        <h3>Popular Courses in 2020</h3>
+                                                    </div>
+                                                                                                        <!--box-image-widget-->
+                                                    <div class="box-image-widget">                                                       
+                                                        <div class="box-image-widget-details">
+                                                            <h4><a href="https://mindmajix.com/microsoft-azure-training">Azure Training</a></h4>
+                                                            <span class="listing-rating card-popup-rainingvis" data-starrating2="5.0"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                                            <p><span> <i class="fa fa-smile"></i> 2178 Learners </span></p>
+                                                        </div>
+                                                    </div>
+                                                    <!--box-image-widget end -->
+
+                                                                                                        <!--box-image-widget-->
+                                                    <div class="box-image-widget">                                                       
+                                                        <div class="box-image-widget-details">
+                                                            <h4><a href="https://mindmajix.com/selenium-training">Selenium Training</a></h4>
+                                                            <span class="listing-rating card-popup-rainingvis" data-starrating2="5.0"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                                            <p><span> <i class="fa fa-smile"></i> 4812 Learners </span></p>
+                                                        </div>
+                                                    </div>
+                                                    <!--box-image-widget end -->
+
+                                                                                                        <!--box-image-widget-->
+                                                    <div class="box-image-widget">                                                       
+                                                        <div class="box-image-widget-details">
+                                                            <h4><a href="https://mindmajix.com/artificial-intelligence-training">Artificial Intelligence (AI) Training</a></h4>
+                                                            <span class="listing-rating card-popup-rainingvis" data-starrating2="5.0"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                                            <p><span> <i class="fa fa-smile"></i> 289 Learners </span></p>
+                                                        </div>
+                                                    </div>
+                                                    <!--box-image-widget end -->
+
+                                                                                                                                                               
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">  
+                                                	<div class="box-widget-item-header">
+                                                        <h3>Global Reviews</h3>
+                                                    </div>
+
+                                                    <div class="widget-posts fl-wrap">
+                                                    	<ul>
+	                                                    	<li class="side_review_bx">
+											                    <a href="https://www.google.com/search?q=mindmajix+technologies&amp;rlz=1C1SQJL_enIN809IN809&amp;oq=mindmajix+tech&amp;aqs=chrome.1.69i57j0j69i60l3j0.4464j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x3bcb90cf7f1a8423:0x9c7431e89f2011eb,1,,," target="_blank" title="Google Reviews">
+											                        <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/google-icon-reviews.png" alt="Google Reviews" title="Google Reviews">
+											                        <div>
+											                            <p class="rating_bx">
+											                                <span class="rating">4.1</span>/<span class="all">5</span>
+											                            </p>
+											                            <p class="text">
+											                                Google Reviews
+											                            </p>										                            
+											                        </div>
+											                    </a>
+											                </li>
+
+											                <li class="side_review_bx">
+											                    <a href="https://www.trustpilot.com/review/mindmajix.com" target="_blank" title="Trustpilot Reviews">
+											                        <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/trustpilot-icon-reviews.png" alt="Trustpilot Reviews" title="Trustpilot Reviews">
+											                        <div>
+											                            <p class="rating_bx">
+											                                <span class="rating">8.6</span>/<span class="all">10</span>
+											                            </p>
+											                            <p class="text">										                                
+	                                										Trustpilot Reviews
+											                            </p>										                            
+											                        </div>
+											                    </a>
+											                </li>
+
+											                <li class="side_review_bx">
+											                    <a href="https://www.facebook.com/pg/MindMajixTechnologies/reviews/" target="_blank" title="Facebook Reviews">
+											                        <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/facebook-icon-reviews.png" alt="Facebook Reviews" title="Facebook Reviews">
+											                        <div>
+											                            <p class="rating_bx">
+											                                <span class="rating">4.0</span>/<span class="all">5</span>
+											                            </p>
+											                            <p class="text">										                                
+	                                										Facebook Reviews
+											                            </p>										                            
+											                        </div>
+											                    </a>
+											                </li>
+											            </ul>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">
+                                                    <div class="box-widget-item-header">
+                                                        <h3>Trending Articles</h3>
+                                                    </div>
+                                                    <div class="widget-posts fl-wrap">
+                                                        <ul>
+                                                        												                	<li>
+                                                                	<a href="https://mindmajix.com/aws-sysops-interview-questions" target="_blank" title="AWS SysOps Interview Questions">AWS SysOps Interview Questions</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/oracle-pl-sql-interview-questions" target="_blank" title="Oracle PL SQL Interview Questions">Oracle PL SQL Interview Questions</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/salesforce-interview-questions" target="_blank" title="Salesforce Interview Questions">Salesforce Interview Questions</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/ssis-interview-questions" target="_blank" title="SSIS Interview Questions">SSIS Interview Questions</a> 
+                                                            	</li>
+											                  
+											                											                	<li>
+                                                                	<a href="https://mindmajix.com/sql-interview-questions" target="_blank" title="SQL Interview Questions">SQL Interview Questions</a> 
+                                                            	</li>
+											                  
+											                                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                                                            
+                                        <!--box-widget-item end -->                          
+                                        <!--box-widget-item -->
+                                        <div class="box-widget-item fl-wrap" id="about_author">
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">
+                                                    <div class="box-widget-item-header">
+                                                        <h3>About Author</h3>
+                                                    </div>
+                                                    <div class="box-widget-author fl-wrap">
+                                                        <div class="box-widget-author-title fl-wrap">
+                                                            <div class="box-widget-author-title-img">
+                                                                <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/pranaya.jpg" alt="Pranaya Pathpi" title="Pranaya Pathpi"> 
+                                                            </div>
+                                                            <a href="https://mindmajix.com/reactjs-interview-questions#" title="Pranaya Pathpi">Pranaya Pathpi</a>
+                                                            <span>CONTENT LEAD AT MINDMAJIX</span>
+                                                        </div>
+                                                        <div class="box-widget-author-content justify">
+                                                            <p>
+
+
+
+
+</p><p>Pranaya is working as a Content Writer at Mindmajix. She is a technology enthusiast and loves to write about various technologies which include, Java, MongoDB, Automation Anywhere, SQL, Artificial Intelligence, and Big Data. You can connect with her via LinkedIn and Twitter.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p></p>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--box-widget-item end --> 
+                                        <!--box-widget-item -->
+
+                                        
+
+                                    
+                                        <!--box-widget-item end -->                                         
+                                                                   
+                                    </div>
+                                    <!--box-widget-wrap end -->  
+                                </div>
+                                <!--   sidebar end  -->
+
+                                <!--blog content -->
+                                <div class="col-md-8">
+                                    <!--post-container -->
+                                    <div class="post-container fl-wrap">
+
+                                       
+                                        <!-- article> --> 
+                                        <article class="post-article">
+                                            <div class="list-single-main-media fl-wrap">                                                
+                                                <img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/react-js-interview-questions-120919.png" class="respimg" alt="Top 50 ReactJS Interview Questions" title="Top 50 ReactJS Interview Questions">
+
+                                                <script type="application/ld+json">
+													{
+													  "@context": "http://schema.org",
+													  "@type": "ImageObject",
+													  "author": "Mindmajix",
+													  "contentUrl": "https://cdn.mindmajix.com/blog/images/react-js-interview-questions-120919.png",
+													  "datePublished": "2018-08-16",
+													  "description": "Top 50 ReactJS Interview Questions",
+													  "name": "Top 50 ReactJS Interview Questions"
+													}
+												</script>
+
+                                            </div>
+                                            <div class="list-single-main-item fl-wrap">
+                                                <!-- <div class="list-single-main-item-title fl-wrap">
+                                                    <h3>Salesforce Tutorial For Beginners</h3>                                                    
+                                                </div> -->
+
+                                                <div class="list-widget-social pull-right">
+                                                    <span>Share:</span> 
+                                                    <ul>
+                                                    	
+                                                        <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://mindmajix.com/reactjs-interview-questions" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href="https://twitter.com/home?status=https://mindmajix.com/reactjs-interview-questions" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                        <li><a title="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mindmajix.com/reactjs-interview-questions&amp;title=https://mindmajix.com/reactjs-interview-questions&amp;summary=&amp;source=" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                                        <li><a onclick="onbookmark()" title="Bookmark"><i class="fal fa-comment-alt-check"></i></a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="clearfix"></div>
+
+                                                <div class="post-content">
+
+                                                	
+
+<p style="text-align: justify;">If you're looking for React JS Interview Questions and Answers? If YES, then this blog is for you!</p>
+<p style="text-align: justify;">There are a lot of opportunities from many reputed companies in the world. According to research, React JS has a <span style="color: #e03e2d;"><strong>market share of about 7.3%</strong></span>.</p>
+<p style="text-align: center;"><span style="font-family: georgia, palatino, serif; color: #34495e;"><span style="color: #000000;">#Interested to learn more about React framework</span> - <span style="color: #000000;">Then check out our</span> <a href="https://mindmajix.com/react-js-training" target="_blank" rel="noopener"><em><strong><span style="color: #e03e2d;">Best React Course</span></strong></em></a> <span style="color: #000000;">to gain expertise to build React JS Applications.</span></span></p>
+<p style="text-align: justify;">Mindmajix designed this blog with the latest 2020 updated <strong>ReactJS Interview Questions</strong> and Answers for freshers and experienced professionals. These React interview questions will help you to crack the React interview easily. Let's get into them.</p>
+<h2 style="text-align: justify;"><em>Top React JS Interview Questions (Updated - 2020)</em></h2>
+<p><em>Here top ReactJS interview questions:</em></p>
+<ul class="list"><li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#what-is-react">What is React?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#why-used-react-js">Why React is used?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#how-react-works">How React works?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#features-of-react-js">What are the features of ReactJS?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#what-are-the-advantages-of-react-js">What are the Advantages of React JS?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#how-is-react-different-from-angularjs">How is React different from AngularJS?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#react-js-framework">How ReactJS framework is different as compared to others?</a></span></em></span></h2>
+</li>
+<li>
+<h2><span style="color: #236fa1;"><em><span style="font-size: 16px;"><a href="https://mindmajix.com/reactjs-interview-questions#what-are-the-life-cycles-of-react-js">What are the life Cycles of ReactJS?</a></span></em></span></h2>
+</li>
+</ul><p>&nbsp;</p>
+<h2 style="text-align: justify;"><span style="color: #e67e23;"><em><span style="font-size: 18pt;">ReactJS Interview Questions and Answers -For Beginners</span></em></span></h2>
+<h3 id="what-is-react">Q1: What is React?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> React is a front-end JavaScript library that mainly follows the component-based approach for building a user interface (UI) components for a single page application. It is also used for handling the view layer in both mobile and web apps. Moreover, react plays a crucial role in developing interactive mobile and web UIs. It was created and developed by Jordan Walke; it was deployed first on the Facebook newsfeed in 2011.</p>
+<h3 id="why-used-react-js" style="text-align: justify;">Q2: Why React is used?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans:</strong></span> The following reasons make one to use React for building User Interfaces (UI), and they are:</p>
+<ul class="list"><li style="text-align: justify;">Easy to learn nature</li>
+<li style="text-align: justify;">Simplicity</li>
+<li style="text-align: justify;">High scalability</li>
+<li style="text-align: justify;">Increase performance</li>
+</ul><p><em><strong>Also Read:</strong></em> <span style="color: #e03e2d;"><strong><a style="color: #e03e2d;" href="https://mindmajix.com/full-stack-developer-interview-questions" target="_blank" rel="noopener">Full Stack Developer Interview Questions</a></strong></span></p>
+<h3 id="how-react-works" style="text-align: justify;">Q3: How React works?</h3>
+<p style="text-align: justify;"><span style="color: #000000;"><span style="color: #e03e2d;"><strong>Ans.</strong></span>&nbsp;</span>Below is the sequence of steps which gives an idea about how does react work</p>
+<ul class="list"><li style="text-align: justify;">Firstly the react runs the diffing algorithm to identify the changes that are made in the virtual DOM.</li>
+<li style="text-align: justify;">Next step is reconciliation, this is used to update the DOM as per the new features.</li>
+<li style="text-align: justify;">Now, the virtual DOM, which is lightweight in nature and is detached from the specific implementation of the browser.</li>
+<li style="text-align: justify;">Followingly the ReactElements which are present in virtual DOM are used to build basic nodes.</li>
+<li style="text-align: justify;">Finally, if the ReactComponent changes the state; the diffing algorithm runs faster and identify the changes. After identification, it automatically updates the DOM with the change difference.</li>
+</ul><h3 id="features-of-react-js" style="text-align: justify;"><strong>Q4: What are the features of ReactJS?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans:</strong> </span>The features of React JS are as follows:</p>
+<p style="margin-left: 40px; text-align: justify;"><strong>1. React improves SEO performance</strong></p>
+<p style="margin-left: 40px; text-align: justify;">React boost the performance of the SEO to higher levels as a search engine faces the problem while reading JavaScript of high loaded applications.</p>
+<p style="margin-left: 40px; text-align: justify;"><strong>2. React acts as a standard for mobile app development</strong></p>
+<p style="margin-left: 40px; text-align: justify;">It provides a transition process as an ideal solution for both mobile and web applications for building rich user interfaces.</p>
+<p style="margin-left: 40px; text-align: justify;"><strong>3. React makes the process of writing components easier</strong></p>
+<p style="margin-left: 40px; text-align: justify;">Using React along with JSX will make you write components and code efficiently and clearly.</p>
+<p style="margin-left: 40px; text-align: justify;"><strong>4. React increases efficiency</strong></p>
+<p style="margin-left: 40px; text-align: justify;">As the React boost the efficiency of components by reusing them. This is the reason why it is considered as an ideal feature of React. It is considered as the most reusable system component.</p>
+<p style="margin-left: 40px; text-align: justify;"><strong>5. React ensures stable code</strong></p>
+<p style="margin-left: 40px; text-align: justify;">It ensures the stability of the code of an application by making use of downward dataflow.</p>
+<p style="margin-left: 40px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/reactjs-features-250919.png" alt="Reactjs features" width="700" height="400"></p>
+<h3 style="text-align: justify;">Q5: What are the Advantages of React JS?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans:</strong></span> The advantages of React are as follows</p>
+<ul class="list"><li style="text-align: justify;">Usage of JSX makes easier to read and write code</li>
+<li style="text-align: justify;">Improves the performance of applications with the use of virtual DOM</li>
+<li style="text-align: justify;">Provides an easier way to integrate with frameworks</li>
+<li style="text-align: justify;">It can be shared and rendered both on server and client-side</li>
+<li style="text-align: justify;">Writing integration and unit tests can be made smother by using tools</li>
+</ul><h3><span style="font-family: Arial; font-size: 14pt;"><span style="white-space: pre-wrap;">Q6. How is React different from AngularJS?</span></span></h3>
+<p><span style="color: #e03e2d;"><strong><span style="font-family: Arial;"><span style="font-size: 14.6667px; white-space: pre-wrap;">Ans: </span></span></strong></span><span style="font-family: Arial; font-size: 11pt; white-space: pre-wrap;">The following table shows the major difference between AngularJS and React</span></p>
+<div class="table-responsive"><table border="3" cellpadding="1" cellspacing="1" style="width:95%;" class="table"><tbody><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px; text-align: center;"><strong>Factor</strong></td>
+<td style="width: 33.3333%; height: 21px; text-align: center;"><strong>React</strong></td>
+<td style="width: 33.3333%; height: 21px; text-align: center;"><strong>AngularJS</strong></td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>Usage of DOM</strong></td>
+<td style="width: 33.3333%; height: 21px;">Uses virtual DOM</td>
+<td style="width: 33.3333%; height: 21px;">Uses real DOM</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>Language</strong></td>
+<td style="width: 33.3333%; height: 21px;">Uses JavaScript with the extended XML syntax</td>
+<td style="width: 33.3333%; height: 21px;">Uses TypeScript which is the superset of JavaScript</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>Design</strong></td>
+<td style="width: 33.3333%; height: 21px;">It is JavaScript Library</td>
+<td style="width: 33.3333%; height: 21px;">Angular is a complete framework</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>App Structure</strong></td>
+<td style="width: 33.3333%; height: 21px;">It is represented only using view of MVC</td>
+<td style="width: 33.3333%; height: 21px;">Made of Complete MVC</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>Developed by</strong></td>
+<td style="width: 33.3333%; height: 21px;">Facebook</td>
+<td style="width: 33.3333%; height: 21px;">Google</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;"><strong>Data Binding</strong></td>
+<td style="width: 33.3333%; height: 21px;">One-way binding</td>
+<td style="width: 33.3333%; height: 21px;">Two-way binding</td>
+</tr></tbody></table></div><h3 style="text-align: justify;"><strong>Q7: How ReactJS framework is different as compared to others?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> Basically, ReactJS is a limited library that builds UI parts, it is essentially not quite the same as a considerable measure of other JavaScript structures. One common example is AngularJS approaches building an app simply by expanding HTML markup and infusing different develop such as controller at runtime. Therefore, AngularJS is exceptionally obstinate about the more noteworthy engineering of your application.</p>
+<p style="text-align: center;"><strong><span style="font-family: georgia, palatino, serif;">Also Read: <span style="color: #e03e2d;"><a style="color: #e03e2d;" href="https://mindmajix.com/react-js-tutorial" target="_blank" rel="noopener">React JS Tutorial for Beginners</a></span></span></strong></p>
+<h3 style="text-align: justify;"><strong>Q8: Does ReactJS use HTML?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> No, It uses JSX which is similar to HTML.</p>
+<h3 style="text-align: justify;">Q9: What is JSX?</h3>
+<p><span style="color: #e03e2d;"><strong>Ans:&nbsp;</strong></span>It is basically a novel dialect of the popular JavaScript that simply integrates the HTML templates into the code of JavaScript. The browser is not capable to read the code simply and thus there is a need for this integration. Generally, WebPack or Babel tools are considered for this task. It has become a very popular approach in the present scenario among the developers.</p>
+<h3 style="text-align: justify;"><strong>Q10: What are the life Cycles of ReactJS?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span></p>
+<p style="text-align: justify; padding-left: 40px;">1. Initialization<br>2. State/Property Updates<br>3. Destruction</p>
+<h3 style="text-align: justify;"><strong>Q11: When ReactJS released?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong> </span>March 2013</p>
+<h3 style="text-align: justify;"><strong>Q12: How is ReactJs different from AngularJS?</strong></h3>
+<p style="text-align: justify;">The first difference between both of them is their code dependency. ReactJS depends less on the code whereas AngularJS needs a lot of coding to be done. The packaging on React is quite strong as compared to the AngularJS. Another difference is React is equipped with Virtual Dom while the Angular has a Regular DOM. ReactJS is all about the components whereas AngularJS focus mainly on the Models, View as well as on Controllers. AngularJS was developed by Google while the ReactJS is the outcome of facebook. These are some of the common differences between the two.</p>
+<h3 style="text-align: justify;"><strong>Q13: What is Redux?</strong></h3>
+<p><strong><span style="color: #e03e2d;">Ans:</span> </strong>It is one of the most in-demand libraries for front-end development in today’s growing world. It is defined as the predictable state container mainly designed for JavaScript apps and also it is used for managing the entire state of an application. Redux is very small in size and has no dependencies. It builds applications that are easy to deploy in different environments and easy to test. Redux is very small in size and has no dependencies.</p>
+<h3>Q14: What is Use of Redux thunk?</h3>
+<p><span style="color: #e03e2d;"><strong>Ans:</strong> </span>Redux thunk acts as middleware which allows an individual to write action creators that return functions instead of actions. This is also used as a delay function in order to delay dispatch of an action if a certain condition is met. The two store methods <em>getState()</em> and <em>dispatch()</em> are provided as parameters to the inner function.</p>
+<p>In order to activate Redux thunk, we must first use applyMiddleware() method as shown below:</p>
+<div><div id="highlighter_787548" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">import{ createStore, applyMiddleware } from </code><code class="js string">'redux'</code><code class="js plain">;</code></div><div class="line number2 index1 alt1"><code class="js plain">import thunk from </code><code class="js string">'redux-thunk'</code><code class="js plain">;</code></div><div class="line number3 index2 alt2"><code class="js plain">import rootReducer from </code><code class="js string">'./reducers/index'</code><code class="js plain">;</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="js comments">//Note: this API requires redux@&gt;=3.1.0</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="js plain">const store= createStore(</code></div><div class="line number8 index7 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">rootReducer,</code></div><div class="line number9 index8 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">applyMiddleware(thunk)</code></div><div class="line number10 index9 alt1"><code class="js plain">);</code></div></div></td></tr></tbody></table></div></div>
+<h3 style="text-align: justify;"><strong>Q15: What do you know about Flux?</strong></h3>
+<div><div class="clearfix"></div><div class="cta_inline"><h4>Subscribe to our youtube channel to get new updates..!</h4><script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/platform.js.download" gapi_processed="true"></script><div id="___ytsubscribe_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 143px; height: 48px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 143px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 48px;" tabindex="0" vspace="0" width="100%" id="I0_1580645187595" name="I0_1580645187595" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/subscribe_embed.html" data-gapiattached="true"></iframe></div></div><div class="clearfix"></div></div><p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> Basically, Flux is a basic illustration that is helpful in maintaining the unidirectional data stream.&nbsp; It is meant to control construed data unique fragments to make them interface with that data without creating issues. Flux configuration is insipid; it's not specific to React applications, nor is it required to collect a React application.&nbsp; Flux is basically a straightforward idea, however in you have to exhibit a profound comprehension of its usage.</p>
+<h3 style="text-align: justify;"><strong>Q16: What is the current stable version of ReactJS?</strong></h3>
+<p><strong style="color: #e03e2d; text-align: justify;">Ans. </strong>******Version: 16.12.0&nbsp;</p>
+<p>&nbsp;</p>
+<p>******Release on: Nov 14, 2019</p>
+<h3 style="text-align: justify;">Q17: What is the Repository URL of ReactJS?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> https://github.com/facebook/react</p>
+<h3 style="text-align: justify;"><strong>Q18: What do you know about the component lifecycle in ReactJS?</strong></h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span>&nbsp;Component lifecycle is an essential part of this platform. Basically, they have lifecycle events that fall in the three prime categories which are property updates, Initialization and third are Destruction. They are generally considered as a method of simply managing the state and properties of every reach component.</p>
+<h3 style="text-align: justify;">Q19: Do you think ReactJS has any limitations? If so, tell a few?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> Yes, there are a few drawbacks which are associated with this platform. The leading drawback of the ReactJS is the size of its library. It is very complex and creates a lot of confusion among the developers. Also, there are lots of developers all over the world which really don’t like the JSX and inline templating. In addition to this, there is another major limitation of ReactJS and i.e. only cover one layer of the app and i.e.View. Thus to manage the development, developers have to depend on several other technologies which consume time.</p>
+<h3 style="text-align: justify;">Q20: How the parent and child components exchange information?</h3>
+<p style="text-align: justify;"><span style="color: #e03e2d;"><strong>Ans.</strong></span> This task is generally performed with the help of functions. Actually, there are several functions which are provided to both parent and child components. They simply make use of them through props. Their communication should be accurate and reliable. The need of same can be there anytime and therefore functions are considered for this task. They always make sure that information can be exchanged easily and in an efficient manner among the parent and child components.</p>
+<h3 style="text-align: justify;">Q21: What is a State in React and How is it used?</h3>
+<p><strong>Ans.</strong> In React, State is an object that represents how the component renders and behaves. States are the sources of data and allow you to create dynamic and interactive components. They are accessed using <em>this.state()</em>. For changing a value in the state object, call it using <em>this.setState()</em> method.</p>
+<h3 style="text-align: justify;"><strong>Q22: What are the differences between the Class component and Functional component?</strong></h3>
+<p><span style="color: #e03e2d;"><strong>Ans</strong></span>.</p>
+<div class="table-responsive"><table border="3" cellpadding="1" cellspacing="1" style="width:95%;" class="table"><tbody><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px; text-align: center;"><strong>Parameter</strong></td>
+<td style="width: 33.3333%; height: 21px; text-align: center;"><strong>Class Component</strong></td>
+<td style="width: 33.3333%; height: 21px; text-align: center;"><strong>Functional Component</strong></td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;">Syntax</td>
+<td style="width: 33.3333%; height: 21px;">This component requests you to extend from React. Component to create render function that in turn returns a react element</td>
+<td style="width: 33.3333%; height: 21px;">It is just a plain JavaScript function that accepts props as their arguments and returns the react element.</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;">Life cycle hooks</td>
+<td style="width: 33.3333%; height: 21px;">Lifecycle hooks are created from the React Component. This class component makes lifecycle hooks available in it.</td>
+<td style="width: 33.3333%; height: 21px;">We cannot use lifecycle hooks in a functional component.</td>
+</tr><tr style="height: 21px;"><td style="width: 33.3333%; height: 21px;">Readability</td>
+<td style="width: 33.3333%; height: 21px;">They are very difficult to test and read</td>
+<td style="width: 33.3333%; height: 21px;">They are much easier to test and read</td>
+</tr></tbody></table></div><p><strong>Class Component Coding</strong></p>
+<div><div id="highlighter_612276" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">class App extends Component {</code></div><div class="line number2 index1 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">render () {</code></div><div class="line number3 index2 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">return</code> <code class="js plain">(</code></div><div class="line number4 index3 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;Text&gt;Hello World!&lt;/Text&gt;</code></div><div class="line number5 index4 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">)</code></div><div class="line number6 index5 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">}</code></div><div class="line number7 index6 alt2"><code class="js plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p><strong>Functional&nbsp; Component Coding</strong></p>
+<div><div id="highlighter_180946" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">const PageOne = () =&gt; {</code></div><div class="line number2 index1 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">return</code> <code class="js plain">(</code></div><div class="line number3 index2 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;h1&gt;Page One&lt;/h1&gt;</code></div><div class="line number4 index3 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">);</code></div><div class="line number5 index4 alt2"><code class="js plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p>&nbsp;</p>
+<h3><span style="font-size: 18.72px;">Q23. What is props in React?</span></h3>
+<p><span style="font-size: 12pt;"><strong>Ans.</strong>&nbsp;</span>Props stand for properties in React and used for passing the information from one component to another. But the data with the Props are passed in a unidirectional flow, i.e., one way from parent to child. Further, they are read-only data, which means child components cannot change data coming from the parent.</p>
+<p><img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/reactjs-1-280120.png" alt="React dom methods" width="70%"></p>
+<h3>Q24. What are the significant differences between state and props?</h3>
+<p><span style="color: #000000;"><strong><span style="color: #e03e2d;">Ans.</span>&nbsp;</strong></span>The difference between state and props are as follows:</p>
+<div class="table-responsive"><table border="3" cellpadding="1" cellspacing="1" style="width:95%;" class="table"><tbody><tr style="height: 21px;"><td style="width: 50%; text-align: center; height: 21px;"><strong>State</strong></td>
+<td style="width: 50%; text-align: center; height: 21px;"><strong>Props</strong></td>
+</tr><tr style="height: 21px;"><td style="width: 50%; height: 21px;">The state is completely managed within a component for internal communication.</td>
+<td style="width: 50%; height: 21px;">Props are directly passed to its parents with child component.</td>
+</tr><tr style="height: 21px;"><td style="width: 50%; height: 21px;">State can be modified using setState() method.</td>
+<td style="width: 50%; height: 21px;">A particular component should never modify its own props.</td>
+</tr><tr style="height: 21px;"><td style="width: 50%; height: 21px;">State changes can be asynchronous</td>
+<td style="width: 50%; height: 21px;">Props are read-only</td>
+</tr></tbody></table></div><h3>Q25. What is the higher-order component?</h3>
+<p><strong><span style="color: #e03e2d;">Ans.</span>&nbsp;</strong>In ReactJS high order component can be defined as the function that is mainly used to collect the component and returns a new component. These components are the patterns that are extracted from the React’s compositional nature. One important aspect of this component is that it is used as a reusable component logic in the React. It provides us with the best way to share behaviour between different React components.</p>
+<h3 style="text-align: justify;"><strong>Q26: How to embed two components in One component?</strong></h3>
+<div><div id="highlighter_2055" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">import React from </code><code class="js string">'react'</code><code class="js plain">;</code></div><div class="line number2 index1 alt1"><code class="js plain">class App extends React.Component{</code></div><div class="line number3 index2 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">render(){</code></div><div class="line number4 index3 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">return</code><code class="js plain">(</code></div><div class="line number5 index4 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;div&gt;</code></div><div class="line number6 index5 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;Header/&gt;</code></div><div class="line number7 index6 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;Content/&gt;</code></div><div class="line number8 index7 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;/div&gt;</code></div><div class="line number9 index8 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">);</code></div><div class="line number10 index9 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">}</code></div><div class="line number11 index10 alt2"><code class="js plain">}</code></div><div class="line number12 index11 alt1"><code class="js plain">class Header extends React.Component{</code></div><div class="line number13 index12 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">render(){</code></div><div class="line number14 index13 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">return</code><code class="js plain">(</code></div><div class="line number15 index14 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;div&gt;</code></div><div class="line number16 index15 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;h1&gt; Header&lt;/h1&gt;</code></div><div class="line number17 index16 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;/div&gt;</code></div><div class="line number18 index17 alt1">&nbsp;</div><div class="line number19 index18 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">)</code></div><div class="line number20 index19 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">}</code></div><div class="line number21 index20 alt2"><code class="js plain">}</code></div><div class="line number22 index21 alt1"><code class="js plain">class Content extends React.Component{</code></div><div class="line number23 index22 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">render(){</code></div><div class="line number24 index23 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">return</code><code class="js plain">(</code></div><div class="line number25 index24 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;h2&gt;Content&lt;/h2&gt;</code></div><div class="line number26 index25 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;p&gt;The Content Text!!!&lt;/p&gt;</code></div><div class="line number27 index26 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">&lt;/div&gt;</code></div><div class="line number28 index27 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">)</code></div><div class="line number29 index28 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">}</code></div><div class="line number30 index29 alt1"><code class="js plain">}</code></div><div class="line number31 index30 alt2"><code class="js plain">export </code><code class="js keyword">default</code> <code class="js plain">App;</code></div></div></td></tr></tbody></table></div></div>
+<h3 style="text-align: justify;">Q27. What are Synthetic events in React?</h3>
+<p><strong>Ans.</strong> React implements Synthetic events to improve the consistency and performance of applications and interfaces. The synthetic event is a cross-browser wrapper around the browser’s native event. It combines the behaviour of multiple browsers into a single API to make sure events have the same properties across different browsers and platforms.</p>
+<h3 style="text-align: justify;">ReactJS Interview Questions for Experienced</h3>
+<h3 style="text-align: justify;">Q28: Give one basic difference between pros and state?</h3>
+<p style="text-align: justify;">Pros are immutable while the state is mutable. Both of them can update themselves easily.</p>
+<h3 style="text-align: justify;">Q29: How do you tell React to build in Production mode and what will that do?</h3>
+<p style="text-align: justify;">Ordinarily, you'd utilize Webpack's <strong>DefinePlugin</strong> strategy to set <strong>NODE_ENV</strong> to production. This will strip out things like prototype approval and additional notices. Over that, it's likewise a smart thought to minify your code in light of the fact that React utilizes Uglify's dead-code end to strip out advancement just code and remarks, which will radically diminish the measure of your package.&nbsp;</p>
+<h3 style="text-align: justify;">Q30: What do you understand with the term polling?</h3>
+<p style="text-align: justify;">The server needs to be monitored to for updates with respect to time. The primary aim in most of the cases is to check whether novel comments are there or not. This process is basically considered as pooling. It checks for updates approximately every 5 seconds. It is possible to change this time period easily. Pooling help keeping an eye on the users and always make sure that no negative information is present on the servers. Actually, it can create issues related to several things and thus pooling is considered.</p>
+<h3 style="text-align: justify;">Q31: When would you use a Class Component over a Functional Component?</h3>
+<p style="text-align: justify;">If your component has state or a lifecycle method(s), use a Class component. or else, use a Functional component.</p>
+<h3 style="text-align: justify;">Q32: What do you mean by virtual DOM?</h3>
+<p style="text-align: justify;">For all the available DOM objects in ReactJS, there is a parallel <a href="https://reactjs.org/docs/faq-internals.html" target="_blank" rel="noopener">virtual DOM</a> object. It is nothing but can be considered as the lighter version of the true copy and is powerful in eliminating the complex code. It is also used as a Blue Print for performing several basic experiments. Many developers also use it while practicing this technology.</p>
+<h3 style="text-align: justify;">Q33: Compare MVC with Flux?</h3>
+<div><div class="clearfix"></div><a href="https://mindmajix.com/react-js-training#curriculum" target="_blank"><div class="row course-widget"><h3>React JS Certification Training!</h3><btn class="btn">Explore Curriculum</btn></div></a><div class="clearfix"></div></div><p style="text-align: justify;">MVC approaches are presently considered as outdated. Although they are capable to handle data concerns, controllers as well as UI, many developers found that it doesn’t properly work when applications size increases. However, they are capable to handle some of the key issues such as eliminating the lack of data integrity as well as managing the data flow which is not properly defined. On the other side, Flux works perfectly with all the sizes irrespective of their size.</p>
+<h3 style="text-align: justify;">Q34: What’s the difference between an Element and a Component in React?</h3>
+<p style="text-align: justify;">Basically, a React component describes what you need to see on the screen. Not all that basically, a React element is a protest portrayal of some UI.&nbsp;</p>
+<p style="text-align: justify;">A React component is a function or a class which alternatively acknowledges input and returns a React component (ordinarily by means of <strong>JSX </strong>which gets transpiled to a createElement invocation).&nbsp;</p>
+<h3 style="text-align: justify;">Q32: Tell us three reasons behind the success of ReactJS?</h3>
+<p style="text-align: justify;">ReactJS is a technology that can be trusted for complex tasks. While performing any task through it, developers need not worry about the bugs. It always ensures error-free outcomes and the best part is it offers scalable apps. It is a very fast technology and can simply be trusted for quality outcomes.</p>
+<h3 style="text-align: justify;">Q33: In which lifecycle event do you make AJAX requests and why?</h3>
+<p style="text-align: justify;">AJAX solicitations ought to go in the <strong>componentDidMount </strong>lifecycle event.&nbsp;<br>There are a couple of reasons behind this,&nbsp;</p>
+<p style="text-align: justify;">Fiber, the following usage of React's reconciliation algorithm, will be able to begin and quit rendering as required for execution benefits. One of the exchange offs of this is <strong>componentWillMount</strong>, the other lifecycle event where it may bode well to influence an AJAX to ask for, will be "non-deterministic". This means React may begin calling <strong>componentWillMount</strong> at different circumstances at whenever point it senses that it needs to. This would clearly be a bad formula for AJAX requests.&nbsp;</p>
+<p style="text-align: justify;">You can't ensure the AJAX request won't resolve before the component mounts. In the event that it did, that would imply that you'd be attempting to setState on an unmounted component, which won't work, as well as React will holler at you for. Doing AJAX in componentDidMount will ensure that there's a component to update.</p>
+<h3 style="text-align: justify;">Q34: What is the difference between createElement and cloneElement?</h3>
+<p style="text-align: justify;"><strong>createElement</strong> is the thing that JSX gets transpiled to and is the thing that React uses to make React Elements (protest representations of some UI). cloneElement is utilized as a part of request to clone a component and pass it new props. They nailed the naming on these two.</p>
+<h3 style="text-align: justify;">Q35: What is meant by event handling?</h3>
+<p style="text-align: justify;">To capture the user’s information and other similar data, the event handling system is considered. It is generally done through DOM elements which are present in the code. This task is simple to accomplish. Two-way communication is considered in this approach.</p>
+<h3 style="text-align: justify;">Q36: What is the second argument that can optionally be passed to setState and what is its purpose?</h3>
+<p style="text-align: justify;">A callback work which will be conjured when <strong>setState </strong>has completed and the part is re-rendered.&nbsp;<br>Something that is not talked about a great deal is that <strong>setState </strong>is asynchronous, which is the reason it takes in a moment callback function. Ordinarily, it's best to utilize another lifecycle strategy instead of depending on this callback function, however, it's great to know it exists.</p>
+<div><div id="highlighter_65266" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">Class Training extends Course</code></div><div class="line number2 index1 alt1"><code class="js plain">{</code></div><div class="line number3 index2 alt2"><code class="js keyword">this</code><code class="js plain">.state = {</code></div><div class="line number4 index3 alt1"><code class="js plain">sampleItem: </code><code class="js string">'learn'</code><code class="js plain">,</code></div><div class="line number5 index4 alt2"><code class="js plain">}</code></div><div class="line number6 index5 alt1"><code class="js plain">handleChange = (event) =&gt; {</code></div><div class="line number7 index6 alt2"><code class="js plain">console.log(</code><code class="js keyword">this</code><code class="js plain">.state.sampleItem)</code></div><div class="line number8 index7 alt1"><code class="js keyword">this</code><code class="js plain">.setState({</code></div><div class="line number9 index8 alt2"><code class="js plain">sampleItem: event.target.value&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="js comments">//event.target.value = Welcome</code></div><div class="line number10 index9 alt1"><code class="js plain">}, () =&gt; console.log(</code><code class="js keyword">this</code><code class="js plain">.state.sampleItem))</code></div><div class="line number11 index10 alt2"><code class="js plain">};</code></div></div></td></tr></tbody></table></div></div>
+<p><strong>Output:</strong></p>
+<p>Learn</p>
+<p>Welcome</p>
+<h3 style="text-align: justify;">Q37: How many outermost elements can be there in a JSX expression?</h3>
+<p style="text-align: justify;">It must have one JSX element present so that the task can be accomplished easily. Having more than one expression is not an issue but probably it will slow down the process. There are also chances of confusion with more than one expression if you are new to this technology.</p>
+<h3 style="text-align: justify;">Q38: What are controlled and uncontrolled components?</h3>
+<p style="text-align: justify;">There are components in the ReactJS that maintain their own internal state. They are basically considered as uncontrolled components. On the other side, the components which don’t maintain any internal state are considered as controlled components in ReactJS. Controlled components can easily be controlled by several methods. Most of the React components are controlled components.</p>
+<h3 style="text-align: justify;">Q39: Mention the key benefits of Flux?</h3>
+<p style="text-align: justify;">Applications that are built on Flux have components that can simply be tested. By simply updating the store, developers are able to manage and test any react component. It cut down the overall risk of data affection. All the applications are highly scalable and suffer no compatibility issues.</p>
+<h3 style="text-align: justify;">Q40: What's wrong with the following code?</h3>
+<div><div id="highlighter_627847" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js keyword">this</code><code class="js plain">.setState{(prevState, props)=&gt;</code></div><div class="line number2 index1 alt1"><code class="js plain">{</code></div><div class="line number3 index2 alt2"><code class="js keyword">return</code> <code class="js plain">{</code></div><div class="line number4 index3 alt1"><code class="js plain">streak: prevState.streak+props.count</code></div><div class="line number5 index4 alt2"><code class="js plain">}</code></div><div class="line number6 index5 alt1"><code class="js plain">})</code></div></div></td></tr></tbody></table></div></div>
+<p style="text-align: justify;">Nothing isn't right with it. It's once in a while utilized and not outstanding, but rather you can likewise pass a function to setState that gets the past state and props and returns another state, similarly as we're doing above. Furthermore, is nothing amiss with it, as well as effectively recommended in case you're setting state in light of the previous state.</p>
+<h3 style="text-align: justify;">Q41: Why browsers cannot read JSX?</h3>
+<p style="text-align: justify;">Actually, JSX is not considered as a proper JavaScript. Browsers cannot read them simply. There is always a need to compile the files that contain JavaScript Code. This is usually done with the help of JSX compiler which performs its task prior to file entering the browser. Also, compiling is not possible in every case. It depends on a lot of factors such as the source or nature of file or data.</p>
+<h3 style="text-align: justify;">Q42: What are pure functional Components?</h3>
+<p style="text-align: justify;">Traditional React Components as we have seen so far are making a class with class Example extends React.Component or React.createClass(). These make stateful components on the off chance that we at any point set the state (i.e. this.setState(), getInitialState(), or this.state = {} inside a constructor()).&nbsp;</p>
+<p style="text-align: justify;">In the event that we have no expectation for a Component to require state, or to require lifecycle methods, we can really compose Components with a pure function, consequently the expression "pure function Component":</p>
+<div><div id="highlighter_532946" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js keyword">function</code> <code class="js plain">Date(props)</code></div><div class="line number2 index1 alt1"><code class="js plain">{</code></div><div class="line number3 index2 alt2"><code class="js plain">let {msg=</code><code class="js string">"The date is:"</code><code class="js plain">} = props</code></div><div class="line number4 index3 alt1"><code class="js plain">let now = </code><code class="js keyword">new</code> <code class="js plain">Date()</code></div><div class="line number5 index4 alt2"><code class="js keyword">return</code> <code class="js plain">&lt;div&gt;</code></div><div class="line number6 index5 alt1"><code class="js plain">&lt;span&gt; {msg}&lt;/span&gt;</code></div><div class="line number7 index6 alt2"><code class="js plain">&lt;time&gt; {now.toLocaleDateString()}&lt;/time&gt;</code></div><div class="line number8 index7 alt1"><code class="js plain">&lt;/div&gt;</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="js plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p style="text-align: justify;">This function that returns a React Element can be used wherever we see fit:</p>
+<div><div id="highlighter_575188" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">DOM.render(&lt;div&gt; &lt;Date msg=</code><code class="js string">"Today is"</code><code class="js plain">/&gt;&lt;/div&gt;)</code></div></div></td></tr></tbody></table></div></div>
+<p style="text-align: justify;">You might notice that also takes a prop – we can still pass information into the Component.</p>
+<p>&nbsp;</p>
+<div><div class="clearfix"></div><a href="https://mindmajix.com/react-js-training#training_dates" target="_blank"><div class="row batch-widget"><h4>Upcoming Batches  - React JS Training!</h4><ul class="course_dt duration" id="listSec" style="margin-bottom:20px;">
+				                                                        
+
+											                            
+
+											                            <li class="listli" id="listli2">
+											                                <div class="pull pull-left" id="courseRightPanelNew" style="color: black;">
+											                                    <div class="batchDate" id="batchdate">
+											                                        <p class="time-change-wrapper" id="list_day2">30</p>
+											                                        <b class="time-change-wrapper" id="list_month2">Jan</b>
+											                                    </div>
+											                                    <div class="batchWeek">
+											                                        <span id="list_week2">Thursday</span><br>
+											                                        <span id="list_time2">6:30 AM IST</span>
+											                                    </div>
+											                                    
+											                                </div>
+											                            </li>
+
+											                            <li class="listli" id="listli2">
+											                                <div class="pull pull-left" id="courseRightPanelNew" style="color: black;">
+											                                    <div class="batchDate" id="batchdate">
+											                                        <p class="time-change-wrapper" id="list_day2">06</p>
+											                                        <b class="time-change-wrapper" id="list_month2">Feb</b>
+											                                    </div>
+											                                    <div class="batchWeek">
+											                                        <span id="list_week2">Thursday</span><br>
+											                                        <span id="list_time2">6:30 AM IST</span>
+											                                    </div>
+											                                    
+											                                </div>
+											                            </li>
+
+											                            <li class="listli" id="listli1">
+											                                <div class="pull pull-left" id="courseRightPanelNew" style="color: black;">
+											                                    <div class="batchDate" id="batchdate">
+											                                        <p class="time-change-wrapper" id="list_day1">15</p>
+											                                        <b class="time-change-wrapper" id="list_month1">Feb</b>
+											                                    </div>
+											                                    <div class="batchWeek">
+											                                        <span id="list_week1">Saturday</span><br>
+											                                        <span id="list_time1">7:00 AM IST</span>
+											                                    </div>
+											                                    
+											                                </div>
+											                            </li>
+
+											                            
+
+
+											                            <li class="listli" id="listli2">
+											                                <div class="pull pull-left" id="courseRightPanelNew" style="color: black;">
+											                                    <div class="batchDate" id="batchdate">
+											                                        <p class="time-change-wrapper" id="list_day2">27</p>
+											                                        <b class="time-change-wrapper" id="list_month2">Feb</b>
+											                                    </div>
+											                                    <div class="batchWeek">
+											                                        <span id="list_week2">Thursday</span><br>
+											                                        <span id="list_time2">6:30 AM IST</span>
+											                                    </div>
+											                                    
+											                                </div>
+											                            </li>
+
+
+                                                   					</ul><br><btn class="btn">More Batches</btn></div></a><div class="clearfix"></div></div><p><strong><span style="font-size: 14pt;">Q43. What is the difference between Real DOM and virtual DOM?</span></strong></p>
+<p><strong><span id="docs-internal-guid-f85c8253-7fff-8634-743c-ce2d696b2c66"><span style="font-size: 12pt;">Ans.&nbsp;</span></span></strong><span id="docs-internal-guid-f85c8253-7fff-8634-743c-ce2d696b2c66"></span></p>
+<ul class="list"><li>DOM stands for Document Object Model. It allows scripts and programs to dynamically access and update the content, structure, and style of a document. DOM is an abstraction of a structured code called HTML, also described as HTML DOM.</li>
+<li>Virtual DOM</li>
+<li>is a lightweight Javascript object, which is the copy of the representation of a DOM object. It is an abstraction of HTML DOM. Virtual is quite faster compared to DOM, performs its tasks reliably.</li>
+</ul><div class="table-responsive"><table border="3" cellpadding="1" cellspacing="1" style="width:95%;" class="table"><tbody><tr style="height: 22px;"><td style="width: 50%; text-align: center; height: 22px;"><strong>Virtual DOM</strong></td>
+<td style="width: 50%; text-align: center; height: 22px;"><strong>Real DOM</strong></td>
+</tr><tr style="height: 22px;"><td style="width: 50%; height: 22px;">Updates faster</td>
+<td style="width: 50%; height: 22px;">Updates slower</td>
+</tr><tr style="height: 22px;"><td style="width: 50%; height: 22px;">No memory wastage</td>
+<td style="width: 50%; height: 22px;">Excess memory wastage</td>
+</tr><tr><td style="width: 50%;">Can't update HTML directly</td>
+<td style="width: 50%;">Update HTML directly</td>
+</tr><tr style="height: 22px;"><td style="width: 50%; height: 22px;">DOM manipulation is easy</td>
+<td style="width: 50%; height: 22px;">DOM manipulation costly</td>
+</tr></tbody></table></div><h3 style="text-align: justify;"><br>Q44: What happens during the lifecycle of a React component?</h3>
+<p style="text-align: justify;">A standout amongst the most valuable parts of React is its segment lifecycle — so seeing precisely how segments components after some time is instrumental in building a viable application.</p>
+<h3 style="text-align: justify;">Q45: What exactly you can do if the expression contains more than one line?</h3>
+<p style="text-align: justify;">In such a situation, enclosing the multi-line JSX expression is an option. If you are a first time user, it may seem awkward but later you can understand everything very easily. Many times it becomes necessary to avoid multi-lines to perform the task reliably and for getting the results as expected.</p>
+<h3 style="text-align: justify;">Q46: Is it possible to use the word “Class” in JSX. Why or why not?</h3>
+<p style="text-align: justify;">No, it is not possible in the JSX. This is because the word “Class” is a reticent (occupied) word in the JavaScript. However, you can use you are free to use the word “ClassName”. If you use the word “Class” the JSX will be translated to JavaScript immediately.</p>
+<h5 style="text-align: justify;"><strong>a) High-Level Component Lifecycle:</strong></h5>
+<p style="text-align: justify;">At the highest level, React components have lifecycle events that fall into 3 general classifications:&nbsp;</p>
+<ol class="list"><li style="text-align: justify;">Initialization</li>
+<li style="text-align: justify;">State/Property Updates</li>
+<li style="text-align: justify;">Destruction</li>
+</ol><p style="text-align: justify;">Each React component defines these events as a system for dealing with its properties, state, and rendered output. Some of these events just happen once, others happen more as often as possible; understanding these 3 general classes should help you clearly visualize when certain logic required to be applied.</p>
+<p style="text-align: justify;">For instance, a component may need to add an event audience to the DOM when it initially mounts. In any case, it ought to likely expel those event listeners when the component unmounts from the DOM with the goal that not relevant handling that doesn't occur.</p>
+<div><div id="highlighter_557716" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">class MyComponent extends React.Component{</code></div><div class="line number2 index1 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;</code><code class="js comments">//when the component is added to the DOM...</code></div><div class="line number3 index2 alt2"><code class="js plain">componentDidMount(){</code></div><div class="line number4 index3 alt1"><code class="js plain">window.addEventListener(</code><code class="js string">'resize'</code><code class="js plain">,</code><code class="js keyword">this</code><code class="js plain">.onResizeHandler);</code></div><div class="line number5 index4 alt2"><code class="js plain">}</code></div><div class="line number6 index5 alt1"><code class="js comments">//when the component is removed from the DOM...</code></div><div class="line number7 index6 alt2"><code class="js plain">componentWillmount(){</code></div><div class="line number8 index7 alt1"><code class="js plain">window.addEventListener(</code><code class="js string">'resize'</code><code class="js plain">,</code><code class="js keyword">this</code><code class="js plain">.onResizeHandler);</code></div><div class="line number9 index8 alt2"><code class="js plain">}</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="js plain">onResizeHandler(){</code></div><div class="line number12 index11 alt1"><code class="js plain">console.log(</code><code class="js string">'The window has been resized!'</code><code class="js plain">);</code></div><div class="line number13 index12 alt2"><code class="js plain">}</code></div><div class="line number14 index13 alt1"><code class="js plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p style="text-align: justify;"><strong>b) Low-Level Component Lifecycle:</strong></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/smat-components-250919.png" alt="Component Lifecycle" width="768" height="333"></p>
+<p style="text-align: justify;">Inside these 3 general buckets exist various particular lifecycle hooks — basically unique techniques - that can be used by any React component to all the more precisely manage updates. Seeing how and when these hooks fire is vital to building stable components and will empower you to control the rendering procedure (enhancing execution).&nbsp;</p>
+<p style="text-align: justify;">Observe the diagram above. The events under "Initialization" just happen when a component is first initialized or added to the DOM. Thus, the events under "Devastation" just happen once (when the component is expelled from the DOM). However, the events under "Update" happen each time the properties or state of the component change.&nbsp;</p>
+<p style="text-align: justify;">For instance, components will naturally re-render themselves whenever their properties or state change. However, at times a component should not update -&nbsp;so keeping the component from re-rendering may enhance the execution of our application.</p>
+<div><div id="highlighter_872599" class="syntaxhighlighter  js"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">class MyComponent extends React.Component{</code></div><div class="line number2 index1 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js comments">//only re-render if the ID has changed!</code></div><div class="line number3 index2 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">shouldComponentUpdate(nextProps, nextState;</code></div><div class="line number4 index3 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">}</code></div><div class="line number5 index4 alt2"><code class="js plain">}</code></div></div></td></tr></tbody></table></div></div>
+<h3 style="text-align: justify;"><strong>Q47: What do you know about React Router?</strong></h3>
+<p style="text-align: justify;">Rendering the components is an important task in ReactJS. React router is used to decide which components is to be rendered and which one should not. It also performs dictation during several activities.</p>
+<h2 style="text-align: justify;"><span style="color: #e67e23;"><em>React Interview Questions for Experienced</em></span></h2>
+<h3 style="text-align: justify;"><strong>Q 48: Compare Flux vs MVC</strong></h3>
+<p style="text-align: justify;">Conventional MVC designs have functioned admirably to separate the worries of data (Model), UI (View) and logic (Controller) — however many web engineers have found impediments with that approach as applications develop in measure. In particular, MVC architectures as often as possible experience 2 primary issues:</p>
+<p style="text-align: justify;"><em><strong>Ineffectively defined data flow:</strong> </em>The cascading updates which happen crosswise over perspectives frequently prompt a tangled web of events which is hard to debug.&nbsp;</p>
+<p style="text-align: justify;"><em><strong>Lack of data integrity:</strong></em> Model data can be changed from anyplace, yielding erratic results over the UI.</p>
+<p style="text-align: justify;">With the Flux pattern complex, UIs never again experience the ill effects of cascading updates; any given React component will have the capacity to recreate its state in light of the information given by the store. The flux pattern likewise upholds data integrity by limiting direct access to the shared data.</p>
+<p style="text-align: justify;">While a technical interview, it is awesome to talk about the contrasts between the Flux and MVC configuration designs inside the setting of a particular illustration:&nbsp;</p>
+<p style="text-align: justify;">For instance, imagine we have a "master/detail" UI in which the client can choose a record from a rundown (master view) and alter it utilizing an auto-populated form (detail view).&nbsp;</p>
+<p style="text-align: justify;">With a MVC architecture, the data contained inside the Model is shared between both the master and detail views. Each of these perspectives may have its own particular Controller assigning updates between the Model and the View. Anytime the information contained inside the Model may be updated — and it's hard to know where precisely that change happened. Did it occur in one of the Views sharing that Model, or in one of the Controllers? Since the Model's information can be transformed by any performing artist in the application, the danger of information contamination in complex UIs is more prominent than we'd like.&nbsp;</p>
+<p style="text-align: justify;">With a Flux architecture, the Store data is correspondingly shared between different Views. However this data can't be straightforwardly changed — the greater part of the solicitations to update the data must go through the Action &gt; Dispatcher chain first, eliminating the risk of arbitrary data pollution. At the point when refreshes are made to the data, it's presently significantly less demanding to find the code requesting for those progressions.</p>
+<h3 style="text-align: justify;"><strong>Q49: What are the stateless components?</strong></h3>
+<p style="text-align: justify;">On the off chance that React components are basically state machines that produce UI markup, at that point what are stateless segments?&nbsp;</p>
+<p style="text-align: justify;">Stateless components (a kind of "reusable" components) are simply pure functions that render DOM construct exclusively with respect to the properties gave to them.&nbsp;</p>
+<p style="text-align: justify;">As you can see, this component has no requirement for any internal state — not to mention a constructor or lifecycle handlers. The yield of the component is absolutely a function of the properties gave to it.</p>
+<h3 style="text-align: justify;"><strong>Q50: What is one of the core types in React?</strong></h3>
+<p style="text-align: justify;">ReactNode</p>
+<h3 style="text-align: justify;"><strong>Q52: What is redux?&nbsp;</strong></h3>
+<p style="text-align: justify;">A method os handling the state (or data) of an application.</p>
+<h3 style="text-align: justify;"><strong>Q53: Is it possible to display props on a parent component?</strong></h3>
+<p style="text-align: justify;">Yes, it is possible. The best way to perform this task is by using the spread operator. It can also be done with listing the properties but this is a complex process.</p>
+<h3 style="text-align: justify;"><strong>Q54: In ReactJS, why there is a need to capitalize on the components?</strong></h3>
+<p style="text-align: justify;">It is necessary because components are not the DOM element but they are constructors. If they are not capitalized, they can cause various issues and can confuse developers with several elements. At the same time, the problem of integration of some elements and commands can be there.</p>
+<h3><span id="docs-internal-guid-8430e242-7fff-2ebc-8fb9-884ae1c7e326">Q55. What are Synthetic events in React?</span></h3>
+<p style="text-align: justify;">&nbsp;</p>
+<p><strong>Ans.</strong> React implements Synthetic events to improve the consistency and performance of applications and interfaces. The synthetic event is a cross-browser wrapper around the browser’s native event. It combines the behaviour of multiple browsers into a single API to make sure events have the same properties across different browsers and platforms.</p>
+<h3 style="text-align: justify;"><strong>Q56: Explain DOM diffing?</strong></h3>
+<p style="text-align: justify;">When the components are rendered twice, Virtual Dom begins checking the modifications elements have got. They represent the changed element on the page simply. There are several other elements that don’t go through changes. To cut down the changes to the DOM as an outcome of user activities, DOM doffing is considered. It is generally done to boost the performance of the browser. This is the reason for its ability to perform all the tasks quickly.</p>
+<h3 style="text-align: justify;"><strong>Q57: Is it possible to nest JSX elements into other JSX elements?&nbsp;</strong></h3>
+<p style="text-align: justify;">It is possible. The process is quite similar to that of nesting the HTML elements. However, there are certain things that are different in this. You must be familiar with the source and destination elements to perform this task simply.</p>
+<p>&nbsp;</p>
+
+
+                                                </div>
+
+                                             	<script type="application/ld+json">      
+									              {
+									                  "@context": "http://schema.org",
+									                  "@type": "Article",
+									                  "mainEntityOfPage": "https://mindmajix.com/sql-server-interview-questions-for-2-5-years",
+									                  "publisher": {
+									                      "@type": "Organization",
+									                      "name": "Mindmajix",
+									                      "logo": {
+									                          "@type": "ImageObject",
+									                          "url": "https://cdn.mindmajix.com/images/mindmajix-logo-5.png"
+									                      }
+									                  },
+									                  "headline": "Top 50 ReactJS Interview Questions",
+									                  "datePublished": "2018-08-16",
+									                  "dateModified": "2020-01-03",
+									                  "author": {
+									                      "@type": "Person",
+									                      "name": "Pranaya Pathpi"
+									                  },
+									                  "image": {
+									                      "@type": "ImageObject",
+									                      "url": "https://cdn.mindmajix.com/blog/images/react-js-interview-questions-120919.png"
+									                  },                  
+									                  "articleBody": "
+
+If you're looking for React JS Interview Questions and Answers? If YES, then this blog is for you",
+									                  "description": "
+
+If you're looking for React JS Interview Questions and Answers? If YES, then this blog is for you"
+									              }
+								              	</script>
+
+                                                <div class="post-author">
+                                                  <a href="https://mindmajix.com/reactjs-interview-questions#" title="Pranaya Pathpi"><img src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/pranaya.jpg" alt="Pranaya Pathpi" title="Pranaya Pathpi"><span>By Pranaya Pathpi </span></a>
+                                                </div>
+                                                <div class="post-opt pull-left">
+                                                    <ul>
+                                                        <li><i class="fal fa-calendar"></i> <span>2020-01-03</span></li>
+                                                        <li><i class="fal fa-eye"></i> <span>77281</span></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="list-widget-social pull-right">
+                                                    <span>Share:</span> 
+                                                    <ul>
+                                                    	
+                                                        <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://mindmajix.com/reactjs-interview-questions" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href="https://twitter.com/home?status=https://mindmajix.com/reactjs-interview-questions" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                        <li><a title="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mindmajix.com/reactjs-interview-questions&amp;title=https://mindmajix.com/reactjs-interview-questions&amp;summary=&amp;source=" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                                        <li><a onclick="onbookmark()" title="Bookmark"><i class="fal fa-comment-alt-check"></i></a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <span class="fw-separator"></span>
+                                                
+                                                
+                                                <!-- <div class="post-nav fl-wrap">
+                                                	
+													 
+                                                    
+                                                </div> -->
+                                            </div>
+                                                                                   
+                                        </article>
+                                        <!-- article end -->                                
+                                    </div>
+                                    <!--post-container end -->  
+
+                                    <div id="disqus_thread"><iframe id="dsq-app2999" name="dsq-app2999" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 907px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+
+                                </div>
+                                <!-- blog content end -->
+                               
+                            </div>
+                        </div>
+                        <div class="limit-box fl-wrap"></div>
+                    </section>
+                    <!-- section end -->
+                </div>
+                <!-- content end-->
+            </div>
+            <!--wrapper end -->
+
+
+            <!--footer -->
+            <footer class="main-footer">
+    <!--footer-inner-->
+    <div class="footer-inner">
+        <div class="container">
+
+            
+            <div class="row">
+                <!--footer-widget -->
+                <div class="col-md-4">
+                    <div class="footer-widget fl-wrap">
+                        
+                        <div class="footer-contacts-widget fl-wrap">
+                            <img alt="Mindmajix" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/logo.png">
+                            <p>Mindmajix - Online global training platform connecting individuals with the best trainers around the globe. With the diverse range of courses, Training Materials, Resume formats and On Job Support, we have it all covered to get into IT Career. Instructor Led Training - Made easy. </p>
+                            
+                            <div class="footer-social">
+                                <span>Follow us : </span>
+                                <ul>
+                                    <li><a href="https://www.facebook.com/MindMajixTechnologies" title="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/mindmajix" title="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.youtube.com/c/mindmajix" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/mindmajix-technologies-pvt-ltd-" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--footer-widget end-->
+                <!--footer-widget -->
+                <div class="col-md-2">
+                    <div class="footer-widget fl-wrap">
+                        <h3>Company</h3>
+                        <div class="widget-posts fl-wrap">
+                            <ul>
+                                <li><a href="https://mindmajix.com/">Home</a></li>
+                                <li><a href="https://mindmajix.com/about">About Us</a></li>
+                                <li><a href="https://mindmajix.com/all-courses">Courses</a></li>
+                                <li><a href="https://mindmajix.com/sample-resumes">Sample Resumes</a></li>
+                                <li><a href="https://mindmajix.com/on-job-support">On Job Support</a></li>
+                                <li><a href="https://mindmajix.com/blog">Blog</a></li>
+                                <li><a href="https://mindmajix.com/contact">Contact Us</a></li>
+                                <li><a href="https://mindmajix.com/reviews">Reviews</a></li>
+                                <li><a href="https://mindmajix.com/write-for-us">Write for us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer-widget fl-wrap">
+                        <h3>Trending Courses</h3>
+                        <div class="widget-posts fl-wrap">
+                            <ul>
+                                <li><a href="https://mindmajix.com/tableau-training">Tableau Training</a></li>
+                                <li><a href="https://mindmajix.com/microsoft-azure-training">Azure Training</a></li>
+                                <li><a href="https://mindmajix.com/oracle-dba-training">Oracle DBA Training</a></li>
+                                <li><a href="https://mindmajix.com/qlikview-training">Qlikview Training</a></li>
+                                <li><a href="https://mindmajix.com/docker-training">Docker Training</a></li>
+                                <li><a href="https://mindmajix.com/jboss-training">JBoss Training</a></li>
+                                <li><a href="https://mindmajix.com/informatica-training">Informatica Training</a></li>
+                                <li><a href="https://mindmajix.com/power-bi-training">Power BI Training</a></li>
+                                <li><a href="https://mindmajix.com/blockchain-training">Blockchain Training</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--footer-widget end-->
+                <!--footer-widget -->
+                <div class="col-md-3">
+                    <div class="footer-widget fl-wrap">
+                        <h3>Contact info</h3>
+                        <div class="widget-posts fl-wrap">
+                            <ul>
+                                <li><i class="fa fa-map-marker-alt color-theme"></i> 244 Fifth Avenue, Suite 1222 
+                                  New York(NY) 
+                                  United States (US) - 10001
+                                </li>
+                                <li><i class="fa fa-phone-volume color-theme"></i> USA : +1 917 456 8403</li>
+                                <li><i class="fa fa-envelope color-theme"></i> <a href="mailto:info@mindmajix.com">info@mindmajix.com</a></li>
+                            </ul>
+
+                            <ul>                    
+                                <li><i class="fa fa-map-marker-alt color-theme"></i>  91Springboard, 512/10, Service Lane, Outer Ring Road, Mahadevapura, Next to More Megastore, Bangalore 560048, Karnataka
+                                </li>
+                                <li><i class="fa fa-phone-volume color-theme"></i> India : +91 905 240 3388</li>
+                                <li><i class="fa fa-envelope color-theme"></i> <a href="mailto:info@mindmajix.com">info@mindmajix.com</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--footer-widget end-->
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--footer-inner end -->
+    <div class="footer-bg">
+    </div>
+    <!--sub-footer-->
+    <div class="sub-footer">
+        <div class="container">
+            <div class="copyright"> Copyright © 2020 Mindmajix Technologies Inc. All Rights Reserved</div>
+            
+            <div class="subfooter-nav">
+                <ul>
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Privacy Policy</a></li>
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Terms of use</a></li>                  
+                  <li><a href="https://mindmajix.com/terms-of-service-and-privacy-policy">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--sub-footer end -->
+
+    
+
+    
+</footer>
+
+<div class="sub-action">
+    <div class="container">
+
+        <div class="copyright hidden-sm hidden-xs">
+            <ul>
+                <li class=""><a href="javascript:void(0);" class="f-s-13"> <i class="fa fa-phone-volume"></i> Call us on : USA - +1 972 427 3027 | IND - +91 9246 333 245</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright hidden-md hidden-lg">
+            <ul>
+                <li class="footer_call_query"><a href="javascript:void(0);" class="f-s-13"> <i class="fa fa-phone-volume"></i> Call Our Advisor </a></li>
+            </ul>
+        </div>
+
+        <div class="subfooter-nav">
+            <ul>
+              <li class="footer_drop_query"> <i class="fa fa-inbox"></i> Drop us a Query </li>
+            </ul>
+        </div>
+    </div>
+</div>            
+            <!--footer end -->           
+            
+            <a class="to-top"><i class="fas fa-caret-up"></i></a>
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+
+        <div class="modal modal-wide fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribe" aria-hidden="true">
+	        <div class="modal-dialog" role="document">
+	            <div class="modal-content exit_bg">
+
+	            	<div class="modal-header">
+						<div class="icon-box">						
+							<i class="fas fa-envelope-open"></i>
+						</div>
+						<button type="button" class="close modalclose" data-dismiss="modal" aria-hidden="true"><span>×</span></button>
+					</div>
+
+	                <div class="modal-body">        
+	                    <h4 class="custom-modal_title">Get Our Updates In Your Inbox </h4>  
+	                    <p class="custom-modal_text">Join our subscribers list to get the latest news, updates and special offers delivered directly in your inbox.</p>
+
+	                    <div class="search-widget">
+                            <form action="https://mindmajix.com/subscribe" name="subscribe" class="fl-wrap box-widget-item" method="POST">
+                                <input name="email" type="email" required="" placeholder="Enter Your Email ID..">
+
+                                <input type="hidden" name="page_url" value="https://mindmajix.com/reactjs-interview-questions">
+		                        <input type="hidden" name="subject" value="Subscribe">
+		                        <input type="hidden" name="ip_address" value="49.33.144.238">
+		                        <button type="submit" name="submit" class="search-submit color2-bg">Subscribe</button>
+                            </form>
+                        </div>
+
+                        <p class="f-s-12 text-center m-t-10">By providing us with your details, We wont spam your inbox.</p>
+	                    
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div class="footer_call">
+          <div class="row border-chat">
+              <div class="col-md-12 col-sm-12 col-xs-12 first-section">
+                  <div class="row">
+                      <div class="col-md-8 col-xs-8 text-left">
+                          <p><i class="fa fa-phone-volume"></i> Call Our Advisor</p>
+                      </div>
+                      <div class="col-md-4 col-xs-4 query_close">
+                          <a href="javascript:void(0);" class="call-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row border-chat">
+              <div class="col-md-12 col-sm-12 col-xs-12 second-section">
+                <div class="num_drop">
+                    <a href="tel:+1 972 427 3027"> USA - +1 972 427 3027 </a>   
+                </div>
+                <br>
+                <div class="num_drop">
+                    <a href="tel:+91 9246 333 245"> IND - +91 9246 333 245  </a>  
+                </div>
+              </div>
+          </div>
+          
+      </div>
+
+
+      <div class="footer_query_box">
+          <div class="row border-chat">
+              <div class="col-md-12 col-sm-12 col-xs-12 first-section">
+                  <div class="row">
+                      <div class="col-md-8 col-xs-8 text-left">
+                          <p>Drop us a Query</p>
+                      </div>
+                      <div class="col-md-4 col-xs-4 query_close">
+                          <a href="javascript:void(0);" class="f-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row border-chat">
+              <div class="col-md-12 col-sm-12 col-xs-12 second-section">
+                
+                  <form class="form_md" action="https://mindmajix.com/reactjs-interview-questions" name="form_ins" method="POST">
+
+                    <div class="row" id="fmail">
+                        <div class="col-md-12 text-left">
+                            <label class="floating-label">E-mail Address *</label>
+                            <input type="email" name="email" required=""> 
+                        </div>
+                    </div>
+
+                    <div class="row" id="fdemo">
+                        <div class="col-md-12 text-left">
+                          <div class="row">
+                            
+                            <div class="col-md-12 pl-0">
+                              <label class="floating-label">Phone *</label>
+                              <input type="text" name="phone" onkeypress="return isNumberKey(event)" maxlength="15" required="">
+                            </div>
+                          </div>  
+                        </div>
+                    </div>
+
+                    <div class="row" id="fmessage">
+                        <div class="col-md-12 text-left">
+                            <label id="labelmsg" class="floating-label">Message</label>
+                            <textarea rows="3" maxlength="200" name="message"></textarea>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="page_url" value="https://tekslate.com/all-courses">
+                    <input type="hidden" name="subject" value="Drop us a Query">
+                    <input type="hidden" name="ip_address" value="110.224.140.19">
+
+
+                    <button type="submit" class="btn bg-red color2-bg">Contact Us</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+        
+
+        
+        <script type="text/javascript" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/shCore.js.download"></script> 
+        <script type="text/javascript" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/shBrushJScript.js.download"></script>
+
+
+  		
+		<script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/jquery.min.js.download"></script>
+		<script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/bootstrap.min.js.download"></script>
+        <!-- <script type="text/javascript" src="https://mindmajix.com/frontend/js/jquery.min.js"></script> -->
+        <script type="text/javascript" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/plugins.js.download"></script>
+        <script type="text/javascript" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/scripts.js.download"></script>  
+
+        <script src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/jquery-ui.js.download"></script>
+
+        <script>
+         $(document).ready(function() {
+            $( "#search" ).autocomplete({
+
+                source: function(request, response) {
+                    $.ajax({
+                    url: "https://mindmajix.com/getsearch",
+                    data: {
+                            term : request.term
+                     },
+                    dataType: "json",
+                    success: function(data){
+                       var resp = $.map(data,function(obj){
+                            return obj.course;
+                       }); 
+
+                       response(resp);
+                    }
+                });
+            },
+            minLength: 2
+         });
+        });
+
+        </script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $(".footer_drop_query").click(function(e){
+                e.stopPropagation();
+                $('.footer_query_box').toggleClass("open-more");
+            });
+
+            $(".f-close").click(function(e){
+                e.stopPropagation();
+                $('.footer_query_box').toggleClass("open-more");
+            });
+
+            $(".footer_call_query").click(function(e){
+                e.stopPropagation();
+                $('.footer_call').toggleClass("open-more");
+            });
+
+            $(".call-close").click(function(e){
+                e.stopPropagation();
+                $('.footer_call').toggleClass("open-more");
+            });
+        });
+
+        </script>
+
+        <script type="text/javascript">
+          SyntaxHighlighter.defaults['toolbar'] = false; 
+          SyntaxHighlighter.all()
+        </script>
+
+        
+
+        <script type="text/javascript">    
+	      var originalPos;
+	      $(document).on("scroll", function(e){
+	        if($("#related_articles").hasClass("affixed")){
+	          if($(document).scrollTop() <= originalPos)
+	            $("#related_articles").removeClass("affixed");
+	          return;
+	        }
+
+	        if((originalPos = $(document).scrollTop()) >= ($("#about_author").offset().top + 100)){
+	          $("#related_articles").addClass("affixed");
+	        }
+
+        	$(window).scroll(function() {
+	          var o = ($(document).height() - $(window).height() - $(window).scrollTop()) / 500;
+	          o <= 1 ? $("#related_articles").hide() : $("#related_articles").show(), $("#related_articles").css("opacity", o)
+	      	});
+	      });
+
+	      	function onbookmark(){
+			  alert('Press Ctrl + D to bookmark this page');
+			}
+
+	      	!function(t) {
+			    "use strict";
+			    var e = document.querySelectorAll('.form_md input[type="text"],.form_md input[type="textarea"],.form_md input[type="password"], .form_md input[type="email"], .form_md input[type="number"], .form_md input[type="tel"]');
+			    if (e)
+			        for (var i = 0; i < e.length; i++)
+			            e[i].previousElementSibling.classList.add("floating-label"),
+			            e[i].addEventListener("focusin", function() {
+			                this.previousElementSibling.classList.add("label-active")
+			            }),
+			            e[i].addEventListener("focusout", function() {
+			                "" != this.value ? this.classList.add("input-active") : ("" == this.value && this.classList.remove("input-active"),
+			                this.previousElementSibling.classList.remove("label-active"))
+			            })
+			}(jQuery);
+	    </script> 
+
+
+		<script>
+
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://mindmajix.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        <script type="text/javascript">
+
+	      // Google Analytics code
+
+	      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	      ga('create', 'UA-54328260-1', 'auto');
+	      ga('send', 'pageview');
+	      gtag('config', 'AW-825123267');
+
+	    </script>
+
+	    <!-- Hotjar Tracking Code for https://mindmajix.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1105249,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+    
+
+<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><iframe name="oauth2relay397748254" id="oauth2relay397748254" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><iframe style="display: none;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/saved_resource(1).html"></iframe><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div style="display: block; visibility: hidden; position: absolute; width: 106px; left: -10000px; top: -10000px;"><table cellpadding="0" cellspacing="0" dir="ltr" style="width:106px;" frame="void" rules="none" class=" gc-bubbleDefault pls-container"><tbody><tr class="gc-reset"><td class="pls-topLeft gc-reset"><img class="gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/border_3.gif"></td><td class="pls-topTail gc-reset"><img class="pls-tailbottom gc-reset" style="width:15px !important; height:9px !important; max-width: 15px !important; max-height: 9px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"><img class="pls-spacerbottom gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td><td class="pls-topRight gc-reset"><img class="gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/border_3.gif"></td></tr><tr class="gc-reset"><td class="pls-vertShimLeft gc-reset"><img class="gc-reset" style="width:1px !important; height:4px !important; max-width: 1px !important; max-height: 4px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td><td class="pls-vertShim gc-reset"><img class="gc-reset" style="width:1px !important; height:4px !important; max-width: 1px !important; max-height: 4px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td><td class="pls-vertShimRight gc-reset"><img class="pls-dropTR gc-reset" style="width:5px !important; height:4px !important; max-width: 5px !important; max-height: 4px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td></tr><tr class="gc-reset"><td class="pls-contentLeft gc-reset"><img class="pls-tailright gc-reset" style="width:9px !important; height:15px !important; max-width: 9px !important; max-height: 15px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"><img class="pls-spacerright gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td><td class="pls-contentWrap gc-reset"><div class="goog-bubble-content gc-reset"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="margin:0px;position:absolute;z-index:1;border-style:none;outline:none;width:100px;" tabindex="0" vspace="0" width="100%" id="I0_1580645201158" name="I0_1580645201158" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/subscribe_embed(1).html"></iframe></div></td><td class="pls-dropRight gc-reset"><img class="pls-tailleft gc-reset" style="width:12px !important; height:19px !important; max-width: 12px !important; max-height: 19px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"><img class="pls-spacerleft gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td></tr><tr class="gc-reset"><td class="pls-bottomLeft gc-reset"><img class="gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/border_3.gif"></td><td class="gc-reset"><table cellpadding="0" cellspacing="0" style="width:100%" class="gc-reset"><tbody><tr class="gc-reset"><td class="pls-vert gc-reset"><img class="pls-dropBL gc-reset" style="width:4px !important; height:5px !important; max-width: 4px !important; max-height: 5px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td><td class="pls-dropBottom gc-reset"><img class="pls-tailtop gc-reset" style="width:19px !important; height:13px !important; max-width: 19px !important; max-height: 13px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"><img class="pls-spacertop gc-reset" style="width:1px !important; height:1px !important; max-width: 1px !important; max-height: 1px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td></tr></tbody></table></td><td class="pls-vert gc-reset"><img class="pls-dropBR gc-reset" style="width:5px !important; height:5px !important; max-width: 5px !important; max-height: 5px !important;" src="./Top 50 React JS Interview Questions - You Must Learn In 2020_files/spacer.gif"></td></tr></tbody></table></div></body></html>
