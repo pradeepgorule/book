@@ -1,8 +1,170 @@
 {
-    "category" : "cart",
-    "name": "component",
-    "answer": [{
-        "quest": "123",
-        "fieldtype": "<input type='text'></input>"
+    "account": [
+        "Pradeep"
+    ],
+    "component": [{
+        "componentInfo": {
+            "name":{
+                "type":"ABC"
+                 
+            },
+            "componentID": "test",
+            "componentName": "this"
+        },
+        "category": {
+            "primaryCategory": "application",
+            "subCategory1": "na",
+            "componentType": "standalone",
+            "application": "na"
+        },
+        "attributes": {
+            "componentVersion": "na"
+        }
+    }],
+    "cart": {
+        "cartID": "na",
+        "price": {
+            "basePrice": "100",
+            "voucherCode": "na",
+            "voucherDiscount": "na",
+            "currency": "na",
+            "taxRate": "na",
+            "cartTotal": "na"
+        },
+        "attributes": {
+            "paymentMethod": "na"
+        },
+        "item": [{
+            "productInfo": {
+                "primaryCategory": "new car",
+                "subCategory1": "na",
+                "productType": "na",
+                "productID": "na",
+                "productName": "na",
+                "manufacturer": "na"
+            },
+            "quantity": "1",
+            "price": {
+                "basePrice": "na",
+                "voucherCode": "na",
+                "voucherDiscount": "na",
+                "currency": "na",
+                "taxRate": "na",
+                "priceWithTax": "na"
+            },
+            "linkedProduct": [{
+                "productInfo": {
+                    "productID": "1"
+                }
+            }]
+        }]
+    },
+    "page": {
+        "pageInfo": {
+            "pageID": "na",
+            "pageName": "na",
+            "author": "na",
+            "destinationURL": "javascript: window.location.href",
+            "referringURL": "na",
+            "sysEnv": "prod",
+            "timeStamp": "javascript: +new Date()",
+            "variant": "real page",
+            "version": "na",
+            "language": "na",
+            "geoRegion": "na"
+        },
+        "category": {
+            "primaryCategory": "test",
+            "subCategory1": "na",
+            "subCategory2": "na",
+            "pagetype": "na"
+        },
+        "attributes": {
+            "brand": "bmw",
+            "currencyCode": "na",
+            "timeZone": "+530 IST",
+            "localPageName": "na"
+        }
+    },
+    "product": [{
+        "productInfo": {
+            "productID": "na",
+            "productName": "na",
+            "manufacturer": "na"
+        },
+        "linkedProduct": [{
+            "productInfo": {
+                "productID": "none"
+            }
+        }],
+        "category": {
+            "primaryCategory": "BMW car",
+            "subCategory1": "na",
+            "productType": "bike"
+        },
+        "attributes": {
+            "internalCode": "na",
+            "modelCode": "na",
+            "modelName": "na",
+            "productionYear": "2020",
+            "yearOfRegistration": "na",
+            "series": "na",
+            "solutionSpecific": {
+                "ppVehicleMappingStatus": "na",
+                "ppVehicleRemoteServices": "na",
+                "ppVehicleSelected": "na",
+                "ppServicePosition": "1",
+                "ppServiceResults": "2",
+                "ppServiceTerm": "12 month",
+                "ppServiceStatus": [
+                    "trial",
+                    "bookable"
+                ]
+            },
+            "navi4": "testThis"
+        }
+    }],
+    "user": [{
+        "segment": "customer",
+        "profile": [{
+            "profileInfo": {
+                "profileID": "na",
+                "language": "na",
+                "returningStatus": "new",
+                "type": "Off customer"
+            },
+            "address": {
+                "stateProvince": "na",
+                "country": "na"
+            },
+            "attributes": {
+                "loggedInStatus": "logged out"
+            }
+        }]
+    }],
+    "dealer": [{
+        "dealerInfo": {
+            "dealerGroup": "na",
+            "dealerID": "na",
+            "dealerName": "1234",
+            "outletID": "na"
+        },
+        "attributes": {
+            "linkedProduct": [{
+                "productInfo": {
+                    "productID": "na"
+                }
+            }],
+            "linkedComponent": [{
+                "componentInfo": {
+                    "componentID": "na"
+                }
+            }],
+            "linkedPage": {
+                "pageInfo": {
+                    "pageID": "2"
+                }
+            }
+        }
     }]
 }
