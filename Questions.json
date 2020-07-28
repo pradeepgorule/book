@@ -1,0 +1,8 @@
+{
+    "category" : "cart",
+    "name": "component",
+    "answer": [{
+        "quest": "123",
+        "fieldtype": "<input type='text'></input>"
+    }]
+}
